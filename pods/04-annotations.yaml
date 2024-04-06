@@ -3,8 +3,8 @@ kind: Pod
 metadata:
   name: annotations
   annotations:
-    environment: production
-    app: nginx       # These are annotations applied to the pod
+    com.project.author: sivagangadhar
+    com.project.name: roboshop       # These are annotations applied to the pod
 spec:
   containers:
   - name: nginx-annotations
