@@ -7,7 +7,7 @@ metadata:
     com.project.name: roboshop       # These are annotations applied to the pod
 spec:
   containers:
-  - name: nginx-annotations
+  - name: nginx-labels
     image: nginx
     ports:
     - containerPort: 80
