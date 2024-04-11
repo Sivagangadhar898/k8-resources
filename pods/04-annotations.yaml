@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotations
+  annotations:
+    com.project.author: sivagangadhar
+    com.project.name: roboshop       # These are annotations applied to the pod
+spec:
+  containers:
+  - name: nginx-labels
+    image: nginx
+    ports:
+    - containerPort: 80
